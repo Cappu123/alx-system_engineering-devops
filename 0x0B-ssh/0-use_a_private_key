@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-
-#serverip
-server_ip = "my_server_ip"
-#connect using the private key ~/.ssh/school with username ubuntu
+#  uses ssh to connect to your server using 
+#the private key ~/.ssh/school with the user ubuntu
 ssh -i ~/.ssh/school ubuntu@54.210.109.53
