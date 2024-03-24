@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#serverip
+server_ip = "my_server_ip"
+ssh -i ~/.ssh/school ubuntu@$server_ip
