@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Find out what’s keeping on Ubuntu container’s Nginx installation
+#+     from listening on port 80.
+# Install whatever tools, start and destroy as many containers as
+#+     to debug the issue.
+# A Bash script with the minimum number of commands
+#+     to automate your fix.
+# Configures a Nginx server to running and listening
+#+     on port 80 of all the server’s active IPv4 IPs.
+# fix nginx listening on port 80
+# Go to sites-enabled folder for Nginx
+
+
+cd /etc/nginx/sites-enabled/ || exit;
+
+# Delete the default file
+rm default;
+
+# Create symbolic link to the deafult file in sites-available
+ln -s /etc/nginx/sites-available/default default;
+
+# Restart Nginx
+service nginx restart
