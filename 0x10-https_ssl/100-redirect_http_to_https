@@ -41,7 +41,7 @@ frontend cappu-frontend
         default_backend cappu-backend
 
 frontend cappu-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/cappu.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.cappu.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend cappu-backend
 
