@@ -10,10 +10,14 @@ def number_of_subscribers(subreddit):
     subscribers for a given subreddit"""
     url = 'https://www.reddit.com/subreddit/{}/about.json'.format(subreddit)
     headers = {'User-Agent': 'Cappu Agent 1.0'}
-    response = requests.get(url, headers=headers, allow_redirects=False)
+    
+    try:
+        response = requests.get(url, headers=headers, allow_redirects=False)
 
-    if response.status_code == 200:
-        data = response.json()
-        return data.get('data').get('subscribers')
-    else:
+        if response.status_code == 200:
+            data = response.json()
+            return data.get('data').get('subscribers')
+        else:
+            return 0
+    except requests.RequestException:
         return 0
