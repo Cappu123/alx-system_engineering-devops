@@ -22,7 +22,7 @@ def recurse(subreddit, hot_list=[]):
         return hot_list
 
     for post in posts:
-        title = post.get('data', {}).get{'title')
+        title = post.get('data', {}).get('title')
         hot_list.append(title)
 
         if data.get('data', {}).get('after'):
