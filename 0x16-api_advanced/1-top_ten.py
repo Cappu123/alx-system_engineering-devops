@@ -2,7 +2,7 @@
 
 """File for task2 query """
 
-import requestis
+import requests
 
 
 def top_ten(subreddit):
