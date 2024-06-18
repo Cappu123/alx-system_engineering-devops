@@ -2,7 +2,9 @@
 
 """File for task2 query """
 
-import requests
+import requestis
+
+
 def top_ten(subreddit):
     """A function that queries the Reddit API and prints
     the first 10 hot posts listed of a given subreddit"""
