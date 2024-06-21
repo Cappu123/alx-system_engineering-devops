@@ -6,7 +6,8 @@
 
 * [On-call](https://intranet.alxswe.com/concepts/39)
 
-
+## Background Context
+<a href="https://youtu.be/rp5cVMNmbro" target="_blank"><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/294/tWUPWmR.png" alt="" loading="lazy" style=""></a></br>
 Any software system will eventually fail, and that failure can come stem from a wide range of possible factors: bugs, traffic spikes, security issues, hardware failures, natural disasters, human error… Failing is normal and failing is actually a great opportunity to learn and improve. Any great Software Engineer must learn from his/her mistakes to make sure that they won’t happen again. Failing is fine, but failing twice because of the same issue is not.
 
 A postmortem is a tool widely used in the tech industry. After any outage, the team(s) in charge of the system will write a summary that has 2 main goals:
@@ -23,7 +24,7 @@ __Read or watch:__
 ## Tasks
 __0.My first postmortem__
 
-<a href="https://twitter.com/devopsreact/status/834887829486399488" target="_blank"><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/294/pQ9YzVY.gif" alt="" loading="lazy" style=""></a>
+<a href="https://twitter.com/devopsreact/status/834887829486399488" target="_blank"><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/294/pQ9YzVY.gif" alt="" loading="lazy" style=""></a></br>
 Using one of the web stack debugging project issue or an outage you have personally face, write a postmortem. Most of you will never have faced an outage, so just get creative and invent your own :)
 
 Requirements:
@@ -49,14 +50,15 @@ While postmortem format can vary, stick to this one so that you can get properly
 
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
 
-__1. Make people want to read your postmortem__
+__1. Make people want to read your postmortem__</br>
+
 We are constantly stormed by a quantity of information, it’s tough to get people to read you.
 
 Make your post-mortem attractive by adding humour, a pretty diagram or anything that would catch your audience attention.
 
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
 
-__Repo:__
-    * GitHub repository:` alx-system_engineering-devops`
-    * Directory: `0x19-postmortem`
-    * File: `README.md`
+__Repo:__</br>
+    * GitHub repository:` alx-system_engineering-devops`</br>
+    * Directory: `0x19-postmortem`</br>
+    * File: `README.md`</br>
