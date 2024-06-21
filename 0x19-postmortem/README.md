@@ -2,7 +2,7 @@
 `DevOps` `SysAdmin`
 
 ### Concepts
-_For this project, we expect you to look at this concept:_
+<i>__For this project, we expect you to look at this concept:__</i>
 
 * On-call
 
@@ -15,13 +15,14 @@ A postmortem is a tool widely used in the tech industry. After any outage, the t
 * And to ensure that the root cause(s) of the outage has been discovered and that measures are taken to make sure it will be fixed.
 
 ## Resources
-__Reador watch:__
+__Read or watch:__
 * [Incident Report, also referred to as a Postmortem](https://sysadmincasts.com/episodes/20-how-to-write-an-incident-report-postmortem)
 * [The importance of an incident postmortem process](https://www.atlassian.com/incident-management/postmortem)
 * [What is an Incident Postmortem?](https://www.pagerduty.com/resources/learn/incident-postmortem/)
 
 ## Tasks
-<em>0.My first postmortem</em></br>
+__0.My first postmortem__
+
 <a href="https://twitter.com/devopsreact/status/834887829486399488" target="_blank"><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/294/pQ9YzVY.gif" alt="" loading="lazy" style=""></a>
 Using one of the web stack debugging project issue or an outage you have personally face, write a postmortem. Most of you will never have faced an outage, so just get creative and invent your own :)
 
@@ -48,14 +49,14 @@ While postmortem format can vary, stick to this one so that you can get properly
 
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
 
-<em>1. Make people want to read your postmortem</em>
+__1. Make people want to read your postmortem__
 We are constantly stormed by a quantity of information, it’s tough to get people to read you.
 
 Make your post-mortem attractive by adding humour, a pretty diagram or anything that would catch your audience attention.
 
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
 
-<em>Repo</em>
+__Repo:__
     * GitHub repository:` alx-system_engineering-devops`
     * Directory: `0x19-postmortem`
     * File: `README.md`
