@@ -62,3 +62,5 @@ __Repo:__</br>
 * GitHub repository:`alx-system_engineering-devops` </br>
 * Directory: `0x19-postmortem` </br>
 * File: `README.md` </br>
+
+#[Wanna Checkout to my postmortem report? :flushed:](https://medium.com/@cappyalemayehu12/my-first-postmortem-813444d90d57)
